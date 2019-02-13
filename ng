@@ -1,0 +1,4 @@
+#!/bin/bash
+
+PWD = ${pwd}
+docker run  --rm --name=angular-sf -it -v /$PWD:/app -p 4200:4200 angular-dev-env serve --host=0.0.0.0
