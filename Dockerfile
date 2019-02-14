@@ -12,4 +12,4 @@ RUN npm install -g @angular/cli
 EXPOSE 4200
 
 ENTRYPOINT [ "ng" ]
-CMD ["--help"]
+#CMD ["--help"]

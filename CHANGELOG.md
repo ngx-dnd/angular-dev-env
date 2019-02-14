@@ -1,5 +1,6 @@
 ## @ngx-dnd/angular-dev-env  v7.3.1
 ---
+FROM: node:alpine
 Angular CLI: 7.3.1
 Node: 11.9.0
 npm: 6.5.0
